@@ -1,0 +1,306 @@
+.head-box{
+	width: 100%;
+	height: 400px;
+}
+
+.head-box .banner-background{
+	height: 400px;
+	background-image: url(../img/pic.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.Sf-title h2 {
+	font-family: FZLTZHUNHK;
+	font-weight: 400
+}
+
+.wrapper {
+ position:relative;
+ margin:0 auto;
+ border:0
+}
+.wrapper-992 {
+ width:992px
+}
+.wrapper-996 {
+ width:996px
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.Sf-list {
+	margin-top: 20px;
+	width: 996px;
+	overflow: hidden
+}
+
+.Sf-list .pm-item {
+	position: relative;
+	float: left;
+	margin: 0 19px 19px 0;
+	width: 318px;
+	height: 338px;
+	background-color: #fff;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear
+}
+.Sf-list .pm-item:nth-child(3n){
+	margin-right: 0;
+}
+.Sf-list .pm-item a {
+	color: #433e33
+}
+
+.Sf-list .pm-item:hover .item-border {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 314px;
+	height: 332px;
+	border: 3px solid #c71622
+}
+
+.Sf-list .item-head {
+	position: relative
+}
+
+.Sf-list .item-head,
+.Sf-list .item-pic {
+	width: 318px;
+	height: 192px
+}
+
+.Sf-list .item-pic img {
+	width: 100%;
+	height: 100%;
+	background: url(//misc.360buyimg.com/lib/skin/e/i/error-jd.gif) no-repeat 50%
+}
+
+.Sf-list .item-flag {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 22px;
+	line-height: 22px;
+	text-align: center
+}
+
+.Sf-list .item-flag em,
+.Sf-list .item-flag span {
+	float: left;
+	padding: 0 7px
+}
+
+.Sf-list .item-flag em {
+	background: #de8a58;
+	color: #fff
+}
+
+.Sf-list .item-flag span {
+	background: #f0d97b;
+	color: #956666
+}
+
+.Sf-list .item-body {
+	padding: 16px 10px 16px 18px;
+	height: 86px
+}
+
+.Sf-list .item-name {
+	margin-bottom: 10px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #433e33;
+	font-size: 14px
+}
+
+.Sf-list .item-location-price {
+	margin-bottom: 10px;
+	height: 33px;
+	overflow: hidden
+}
+
+.Sf-list .item-price-curr {
+	height: 33px
+}
+
+.Sf-list .item-price-curr em,
+.Sf-list .item-price-curr span {
+	float: left;
+	height: 17px;
+	line-height: 17px
+}
+
+.Sf-list .item-price-curr em {
+	padding: 9px 0 7px;
+	color: #c7171e
+}
+
+.Sf-list .item-price-curr em i {
+	margin-right: 3px;
+	font-size: 14px
+}
+
+.Sf-list .item-price-curr em b {
+	font-size: 16px
+}
+
+.Sf-list .item-price-curr span {
+	padding: 11px 0 5px
+}
+
+.Sf-list .item-price-curr.price-font-big em {
+	padding: 3px 0 0;
+	height: 30px;
+	line-height: 1
+}
+
+.Sf-list .item-price-curr.price-font-big b {
+	font-size: 24px
+}
+
+.Sf-list .item-price-assess span,
+.Sf-list .item-price-curr span {
+	padding-right: 5px
+}
+
+.Sf-list .item-times-assess {
+	overflow: hidden;
+	height: 17px;
+	line-height: 17px
+}
+
+.Sf-list .item-times {
+	float: right
+}
+
+.Sf-list .item-location {
+	float: right;
+	padding: 11px 0 5px;
+	height: 17px;
+	line-height: 17px
+}
+
+.Sf-list .item-location em,
+.Sf-list .item-location span {
+	float: left
+}
+
+.Sf-list .item-location span {
+	margin: 3px;
+	width: 9px;
+	height: 11px;
+	background: url(//misc.360buyimg.com/product/paimai_item/3.0.2/css/i/list.png) no-repeat -55px -16px
+}
+
+.Sf-list .item-foot {
+	height: 28px;
+	line-height: 28px;
+	background: #787878;
+	color: #fff;
+	overflow: hidden
+}
+
+.Sf-list .item-countdown,
+.Sf-list .item-status {
+	float: left
+}
+
+.Sf-list .item-status {
+	padding-left: 18px;
+	width: 62px;
+	height: 28px;
+	border-top-right-radius: 14px;
+	border-bottom-right-radius: 14px
+}
+
+.Sf-list .item-countdown {
+	display: none;
+	width: 202px;
+	text-align: center
+}
+
+.Sf-list .item-countdown i {
+	padding-right: 5px
+}
+
+.Sf-list .item-border {
+	display: none;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.Sf-list .pm-status-0 .item-countdown,
+.Sf-list .pm-status-1 .item-countdown,
+.Sf-list .pm-status-2 .item-countdown {
+	display: inline
+}
+
+.Sf-list .pm-status-0 .item-status {
+	background: #1b8f68
+}
+
+.Sf-list .pm-status-0 .item-price-curr em {
+	color: #1b8f68
+}
+
+.Sf-list .pm-status-0:hover .item-border {
+	border: 3px solid #1b8f68
+}
+
+.Sf-list .pm-status-1 .item-status {
+	background: #c71622
+}
+
+.Sf-list .pm-status-1 .item-price-curr em {
+	color: #c71622
+}
+
+.Sf-list .pm-status-2 .item-status {
+	background: #8a8a8a
+}
+
+.Sf-list .pm-status-2 .item-price-curr em {
+	color: #5a5a5a
+}
+
+.Sf-list .pm-status-3 .item-foot,
+.Sf-list .pm-status-5 .item-foot,
+.Sf-list .pm-status-6 .item-foot,
+.Sf-list .pm-status-7 .item-foot {
+	background: #8a8a8a
+}
+
+.Sf-list .pm-status-3 .item-status,
+.Sf-list .pm-status-5 .item-status,
+.Sf-list .pm-status-6 .item-status,
+.Sf-list .pm-status-7 .item-status {
+	float: none;
+	padding-left: 0;
+	width: 318px;
+	border-radius: 0;
+	text-align: center
+}
+
+.Sf-list .pm-status-3 .item-price-curr em,
+.Sf-list .pm-status-5 .item-price-curr em,
+.Sf-list .pm-status-6 .item-price-curr em,
+.Sf-list .pm-status-7 .item-price-curr em {
+	color: #5a5a5a
+}
+
+.Sf-list.Sf-loading {
+	height: 200px
+}
